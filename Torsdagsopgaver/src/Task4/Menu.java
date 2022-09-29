@@ -13,7 +13,7 @@ public class Menu
     }
 
 
-    public void showMenu()
+    public String showMenu()
     {
         System.out.println("Type a number to choose");
         int i = 0;
@@ -27,7 +27,7 @@ public class Menu
         Scanner scanner = new Scanner(System.in);
         String choice = scanner.nextLine();
 
-
+        return choice;
     }
 
 
