@@ -14,16 +14,9 @@ public class Main
         System.out.println(actions.get(2));
 
         Menu menu = new Menu(actions);
+        menu.showMenu();
     }
 
-    private void showMenu()
-    {
-        System.out.println("Type a number to choose");
-        for (options o:  options)
-        {
-            
-        }
 
-    }
 
 }
