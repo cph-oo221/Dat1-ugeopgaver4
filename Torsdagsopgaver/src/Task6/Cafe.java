@@ -13,10 +13,13 @@ public class Cafe
        this.coffeeMenu = new ArrayList<>();
    }
 
+    public ArrayList<String> getCoffeeMenu()
+    {
+        return coffeeMenu;
+    }
+
     public void loadMenuDate()
     {
-
-
         File file = new File("coffees.txt");
         try
         {
@@ -33,5 +36,4 @@ public class Cafe
             System.out.println("Can't find file. Check path and filename");
         }
     }
-
 }
