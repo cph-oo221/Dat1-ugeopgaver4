@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GuessANumber">
+  <component name="RunManager" selected="Application.Task4.Main">
     <configuration name="GuessANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task3.GuessANumber" />
       <module name="Torsdagsopgaver" />
@@ -65,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.Main" />
+      <module name="Torsdagsopgaver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task4.Main" />
         <item itemvalue="Application.GuessANumber" />
         <item itemvalue="Application.Main" />
       </list>

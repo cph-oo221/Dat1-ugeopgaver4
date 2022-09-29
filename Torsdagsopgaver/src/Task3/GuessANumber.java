@@ -23,7 +23,7 @@ public class GuessANumber
         // Create a Scanner object
         Scanner scanner = new Scanner(System.in);
         // Read user input
-        int guess;
+        int guess = -1;
         try
         {
             guess = scanner.nextInt();
@@ -31,6 +31,22 @@ public class GuessANumber
         catch (Exception ex)
         {
             System.out.println("That is not a number");
+            makeAGuess();
+        }
+
+        if(rnd_number==guess)
+        {
+            System.out.println("That correct");
+
+        }
+        else if (rnd_number<guess)
+        {
+            System.out.println("Too high!");
+            makeAGuess();
+        }
+        else
+        {
+            System.out.println("Too low!");
             makeAGuess();
         }
 
