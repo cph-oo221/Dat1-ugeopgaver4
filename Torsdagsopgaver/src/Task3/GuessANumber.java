@@ -18,7 +18,6 @@ public class GuessANumber
         makeAGuess();
     }
 
-
     private static void makeAGuess(){
         // Create a Scanner object
         Scanner scanner = new Scanner(System.in);
@@ -28,6 +27,7 @@ public class GuessANumber
             System.out.println("That is not a number");
             makeAGuess();
         }
+
         int guess = scanner.nextInt();
         if(rnd_number==guess)
         {
