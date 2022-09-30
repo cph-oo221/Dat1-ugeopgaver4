@@ -23,17 +23,12 @@ public class GuessANumber
         // Create a Scanner object
         Scanner scanner = new Scanner(System.in);
         // Read user input
-        int guess = -1;
-        try
-        {
-            guess = scanner.nextInt();
-        }
-        catch (Exception ex)
+        if(!scanner.hasNextInt())
         {
             System.out.println("That is not a number");
             makeAGuess();
         }
-
+        int guess = scanner.nextInt();
         if(rnd_number==guess)
         {
             System.out.println("That correct");
